@@ -34,9 +34,9 @@
     <div>
       <button
         :class="
-          levelComplexity === 1400 ? 'active-complexity' : 'complexity-btn'
+          levelComplexity === 1500 ? 'active-complexity' : 'complexity-btn'
         "
-        @click="this.levelComplexity = 1400"
+        @click="this.levelComplexity = 1500"
       >
         easy
       </button>
@@ -50,9 +50,9 @@
       </button>
       <button
         :class="
-          levelComplexity === 500 ? 'active-complexity' : 'complexity-btn'
+          levelComplexity === 400 ? 'active-complexity' : 'complexity-btn'
         "
-        @click="this.levelComplexity = 500"
+        @click="this.levelComplexity = 400"
       >
         hard
       </button>
