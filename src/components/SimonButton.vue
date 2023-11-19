@@ -20,6 +20,9 @@ export default {
   margin: 2px;
   border: 2px solid black;
 }
+.simon-btn:active {
+  background-color: #dddddd;
+}
 
 .red {
   background-color: red;
@@ -37,6 +40,7 @@ export default {
   background-color: yellow;
   border-bottom-left-radius: 100%;
 }
+
 .active {
   background-color: white;
 }
